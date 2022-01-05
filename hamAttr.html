@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thường đi với lớp giả (pseudo class)</title>
+    <style>
+        a::after {
+            content: " ("attr(href)")";
+            /* attr là atribute  */
+            /* content: attr(data); */
+        }
+    </style>
+</head>
+
+<body>
+    <a href="htts://fullstack.edu.vn" data="trường">học lập trình</a>
+</body>
+
+</html>

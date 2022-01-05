@@ -1,0 +1,23 @@
+css pseudo-classes
+:root là tham chiếu phần tử gốc 
+:hover là di chuột vào đối tượng
+:active là khi kích chuột 
+:first-child là select thẻ con đầu tiên 
+:last-child là select thẻ con cuối cùng 
+
+css pseudo-elements
+::before  :phải thêm display=block;
+::after
+::first-letter là ký tự đầu tiên 
+::first-line dòng đầu tiên 
+::selection  là khi bôi đen vào thì nó ra màu mình css
+
+Position(top left right bottom chỉ tồn tại khi có position)
+relation:(vị trí tương đối )lấy chính nó làm gốc tọa độ và ko phụ thuộc vào bất cứ j 
+absolute:(vị trí tuyệt đối) phụ thuộc thẻ cha gần nhất có positon để làm gốc tọa độ 
+fixed:()phụ thuộc vào cửa ổ trình duyệt thì dùng fixed
+sticky:
+!chú ý :phụ thuộc vào đối tượng khác thì dùng absolute
+
+
+
