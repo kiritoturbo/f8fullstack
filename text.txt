@@ -55,4 +55,16 @@ Tiêu chuẩn BEM
 
 ##Nhược điểm 
 -Tên class dài
+-Một số người cho là xấu
+
+## Khi nào dùng BEM là PHÙ HỢP (đừng dao mổ trâu đi giết gà chỉ cần phù hợp phù hợp)
+-Dự án nhiều Members
+-Dự án lớn ,số lượng pages nhiều hoặc số lượng các thành phần trên giao diện nhiều 
+
+##Thực hành 
+-Làm button 
+    -Enabled:Pointer,hover effect
+    -Disabled :Arrow ,no efect
+-Làm message 
+-Làm 1 thành phần trên website
 

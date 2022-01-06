@@ -1,0 +1,102 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body>div {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.toast {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    border-left: 4px solid;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+    padding: 20px 0;
+}
+
+
+.toast--succes {
+    border-color: rgb(21, 255, 0);
+
+}
+
+.toast--succes .toast__icon {
+    color: rgb(0, 255, 42)
+}
+
+.toast--info {
+    border-color: red;
+}
+
+.toast--info .toast__icon {
+    color: rgb(255, 0, 0)
+}
+
+.toast--warning {
+    border-color: yellow;
+
+}
+
+.toast--warning .toast__icon {
+    color: rgb(200, 255, 0)
+}
+
+.toast--error {
+    border-color: blue;
+
+}
+
+.toast--error .toast__icon {
+    color: rgb(0, 60, 255)
+}
+
+.toast+.toast {
+    margin-top: 24px;
+}
+
+.toast__icon {
+    font-size: 24px;
+}
+
+.toast__icon,
+.toast__close {
+    padding: 0 16px;
+}
+
+.toast__body {
+    min-width: 300px;
+    flex-grow: 1;
+    /* để khi chữ có ít thì cx vẫn rộng ra  */
+}
+
+.toast__titile {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.toast__msg {
+    font-size: 14px;
+    color: #888;
+    margin-top: 6px;
+    line-height: 1.5;
+}
+
+.toast__close {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.toast__close:hover {
+    opacity: 0.4;
+}
