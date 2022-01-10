@@ -68,3 +68,6 @@ Tiêu chuẩn BEM
 -Làm message 
 -Làm 1 thành phần trên website
 
+## Trường hợp Block lồng block
+-block con là thành phần dùng hcung 
+-block con chứa nhiều element

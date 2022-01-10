@@ -1,0 +1,60 @@
+/* css cấu hình chung */
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+    /*kế thừa thẻ chứa nó*/
+}
+
+html {
+    /* hack */
+    font-size: 62.5%;
+    /* 100% là 16px */
+    /* 62.5% là 10px */
+    /* đặt ra độ cao mặc định cho trang web  */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /* sans-serif là chủng các chữ không chân  */
+    box-sizing: border-box;
+
+}
+
+
+
+.grid {
+    /* khi vào màn hình có kích thước lớn hơn 1200px thì nó chỉ rộng 1200px */
+    width: 1200px;
+    /* khi bé hơn 1200px thì chiều rộng thu hẹp lại còn 100% màn hình trình duyệt  */
+    max-width: 100%;
+    /* căn giữa  */
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    /* trong trường hợp ko muốn dùng 1200px  */
+    width: 100%;
+
+}
+
+.grid__row {
+    /* những thẻ nằm trong class thì nằm thành hàng ngang vì thuộc tính flex là có main axis */
+    display: flex;
+    /* khi màn hình nhỏ thì các thẻ tự nhảy xuống */
+    flex-wrap: wrap;
+}
+
+/* animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
